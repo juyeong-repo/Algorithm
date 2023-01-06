@@ -6,7 +6,9 @@ def solution(numbers):
     numbers의 각 원소에 두배한 원소를 가진 배열을 return하도록 solution 함수를 완성해주세요.
     source: https://school.programmers.co.kr/learn/courses/30/lessons/120809
     suedo code:
-    numpy(곱하기), lamda, map 사용하기
+    1.numpy  -> 행렬연산 가능, 다차원 연산 가능
+    2.map 사용하기
+    3.lambda
          
     '''
     numbers = np.array(numbers)
@@ -27,7 +29,4 @@ def solution2(numbers):
 
 
 
-def solution3(numbers):
-    answer = []
-    return answer
 
