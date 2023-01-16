@@ -7,7 +7,7 @@ def solution1(numbers, direction):
     1) when direction equals left or right
     2) use python slicing
     이렇게 풀 수 있고 (solution1) 
-    파이썬 컬렉션의 deque를 사용해도 된다.  (solution2)
+    파이썬 컬렉션의 deque를 사용해도 된다. (solution2)
     '''
     if direction == 'right':
         return [numbers[-1]] + numbers[:-1]
