@@ -18,4 +18,4 @@ for plan in plans:
         continue
     x,y = nx,ny
 
-printK(nx, ny) 
+print(nx, ny) 
