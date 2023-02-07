@@ -3,7 +3,7 @@
 1. 정규표현식 사용
 2. list comprehension
 '''
-
+import re
 
 def solution(my_str, n):
     p = re.compile(f'.{{1,{n}}}')
