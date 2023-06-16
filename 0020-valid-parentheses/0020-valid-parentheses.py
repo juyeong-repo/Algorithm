@@ -12,8 +12,7 @@ class Solution:
             '}':'{'
         }
         
-        
-        # 테스트 케이스를 고려하여 예외처리가 필요하다.
+
         for char in s:
             if char not in table: 
                 stack.append(char)
